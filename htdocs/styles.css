@@ -1,0 +1,55 @@
+﻿body
+{
+}
+nav {
+    margin: 10px;
+    background-color: rgb(254, 169, 94);
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 4px;
+    padding: 0px 10px;
+}
+li{
+    height: 30px;
+    float:left;
+    padding: 0 15px;
+}
+button:hover{
+    background-color: orange;
+    transform: scale(1.7);
+}
+h1, h2{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS';
+    color: black;
+    text-align: center;
+}
+.HomeImages {
+    display: flex;
+    align-content: center;
+    align-self: center;
+    float: left;
+}
+.test{
+    float: right;
+}
+.centralImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.jobColumn{
+    text-align: center;
+    margin: 0% 20%;
+    width: 50%;
+}
+.tutorialText{
+    padding:0 25%;
+}
